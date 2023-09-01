@@ -115,4 +115,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-[ -r /home/pmc/.byobu/prompt ] && . /home/pmc/.byobu/prompt   #byobu-prompt#
+
+if [ -f ~/.bash_alias ]; then
+    . ~/.bash_alias
+fi

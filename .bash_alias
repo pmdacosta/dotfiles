@@ -1,1 +1,1 @@
-alias cp = cp -i
+alias cp='cp -i'

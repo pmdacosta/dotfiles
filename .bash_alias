@@ -1,1 +1,2 @@
 alias cp='cp -i'
+alias yt-audio='yt-dlp --audio-format best -x -o "~/Music/%(title)s-%(id)s.%(ext)s"'
